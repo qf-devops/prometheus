@@ -1,0 +1,11 @@
+
+Copy the above docker-compose file contents and run docker-compose up -d to spin-up Promtheus server, 
+
+Node Exporter and Grafana containers and run docker-compose ps to check the statuses of the containers. 
+
+Here you are also mounting the host directory file-system to the Grafana service, 
+
+so it can access the Dashboard’s JSON from the host system.
+
+Now finally, go to your system’s public IP address with the port 3000 and enter admin:admin username and password to 
+see your server stats in the Grafana Dashboard
